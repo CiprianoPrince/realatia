@@ -14,6 +14,13 @@
         "sourceMap": true,
         "outDir": "./dist",
         "baseUrl": "./",
+        "paths": {
+            "@business-profile/*": ["src/shared/context/business-profile/*"],
+            "@porfolio-management/*": ["src/shared/context/porfolio-management/*"],
+            "@service-category/*": ["src/shared/context/service-category/*"],
+            "@shared/*": ["src/shared/*"],
+            "@user-management/*": ["src/shared/context/user-management/*"]
+        },
         "incremental": true,
         "skipLibCheck": true,
         "strictNullChecks": true,
