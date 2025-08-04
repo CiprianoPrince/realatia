@@ -1,11 +1,10 @@
 import { Module } from '@nestjs/common';
+import { CqrsModule } from '@nestjs/cqrs';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { UserManagementModule } from './user-management/user-management.module';
-import { UserManagementModule } from './user-management/user-management.module';
 
 @Module({
-    imports: [UserManagementModule],
+    imports: [CqrsModule.forRoot()],
     controllers: [AppController],
     providers: [AppService],
 })

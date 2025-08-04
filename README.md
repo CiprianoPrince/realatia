@@ -159,7 +159,7 @@ Property Inquiry → Notification Creation → Communication Initiation → Anal
 
 ```bash
 # Clone the repository
-git clone https://github.com/ref-platform/real-estate-platform.git
+git clone https://github.com/CiprianoPrince/realatia.git
 
 # Install dependencies
 npm install
