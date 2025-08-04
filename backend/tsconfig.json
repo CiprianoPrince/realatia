@@ -16,6 +16,7 @@
         "baseUrl": "./",
         "paths": {
             "@business-profile/*": ["src/shared/context/business-profile/*"],
+            "@geographic-organization/*": ["src/shared/context/geographic-organization/*"],
             "@porfolio-management/*": ["src/shared/context/porfolio-management/*"],
             "@service-category/*": ["src/shared/context/service-category/*"],
             "@shared/*": ["src/shared/*"],
