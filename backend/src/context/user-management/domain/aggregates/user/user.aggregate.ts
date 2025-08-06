@@ -1,5 +1,5 @@
 import { AggregateRoot } from '@shared/domain/aggregates';
-import { Email, UserId } from '@shared/domain/value-objects';
+import { Email, ProfessionalInfo, UserId } from '@shared/domain/value-objects';
 import {
     EmailVerificationRequested,
     EmailVerified,
@@ -8,7 +8,7 @@ import {
     UserRegistered,
 } from '../../events';
 import { UserStatus, VerificationStatus } from '../../types';
-import { ContactInformation, Password, PersonalInfo, ProfessionalInfo, SocialMediaLinks } from '../../value-objects';
+import { ContactInformation, Password, PersonalInfo, SocialMediaLinks } from '../../value-objects';
 
 export class User extends AggregateRoot<UserId> {
     private constructor(
