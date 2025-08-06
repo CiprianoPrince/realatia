@@ -2,11 +2,11 @@ import { AggregateRoot } from '@shared/domain/aggregates';
 import { UserId } from '@shared/domain/value-objects';
 import { ChapterEvent, ChapterMembership } from '../../entities';
 import {
-	ChapterActivityUpdated,
-	ChapterEventCreated,
-	ChapterJoined,
-	ChapterLeft,
-	MembershipRoleChanged,
+    ChapterActivityUpdated,
+    ChapterEventCreated,
+    ChapterJoined,
+    ChapterLeft,
+    MembershipRoleChanged,
 } from '../../events';
 import { EActivityLevel, EMeetingFrequency, EMembershipRole } from '../../types';
 import { ChapterId, ChapterName, MemberCount, MembershipId, State } from '../../value-objects';

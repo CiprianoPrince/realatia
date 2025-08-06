@@ -1,10 +1,10 @@
 import { AggregateRoot } from '@shared/domain/aggregates';
 import { UserId } from '@shared/domain/value-objects';
 import {
-	ConversationArchived,
-	ConversationStarted,
-	MessageRead,
-	MessageSent,
+    ConversationArchived,
+    ConversationStarted,
+    MessageRead,
+    MessageSent,
 } from 'src/context/communication/domain/events';
 import { Message, MessageThread } from '../../entities';
 import { EConversationStatus, EConversationType } from '../../types';

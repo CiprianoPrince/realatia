@@ -1,5 +1,5 @@
 import { AggregateRoot } from '@shared/domain/aggregates';
-import { UserId } from '@shared/domain/value-objects';
+import { BusinessProfileId, UserId } from '@shared/domain/value-objects';
 import { Company, ProfessionalCredentials } from '../../entities';
 import {
     BusinessProfileCreated,
@@ -9,13 +9,7 @@ import {
     ProfileCompletionChanged,
 } from '../../events';
 import { EProfileCompletionLevel, ETeamSize } from '../../types';
-import {
-    BusinessAddress,
-    BusinessProfileId,
-    Certification,
-    LicenseNumber,
-    ProfileCompletionStatus,
-} from '../../value-objects';
+import { BusinessAddress, Certification, LicenseNumber, ProfileCompletionStatus } from '../../value-objects';
 
 export class BusinessProfile extends AggregateRoot<BusinessProfileId> {
     private constructor(
