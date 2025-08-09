@@ -1,5 +1,7 @@
 export * from './badge/badge.component';
 export * from './button/button.component';
+export * from './checkbox/checkbox.component';
+export * from './input-group/input-group.component';
 export * from './input/input.component';
 export * from './label/label.component';
 export * from './progress/progress.component';

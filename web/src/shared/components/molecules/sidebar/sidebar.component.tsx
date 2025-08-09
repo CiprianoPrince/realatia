@@ -1,12 +1,11 @@
 "use client";
 
+import { useIsMobile } from "@/shared/hooks/use-mobile/use-mobile";
+import { cn } from "@/shared/lib";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";
-
-import { useIsMobile } from "@/hooks/use-mobile";
-import { cn } from "@/shared/lib";
 import { Button, Input, Separator } from "../../atoms/atoms";
 import {
   Sheet,
