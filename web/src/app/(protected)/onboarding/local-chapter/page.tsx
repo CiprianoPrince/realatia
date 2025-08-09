@@ -1,3 +1,5 @@
-export const LocalChapter = () => {
-  return <div></div>;
+const LocalChapter = () => {
+  return <div>Local chapetr</div>;
 };
+
+export default LocalChapter;
